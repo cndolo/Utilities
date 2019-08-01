@@ -1,0 +1,12 @@
+##### squash commits #####
+
+git log --see commits, squash starting from commit n
+git rebase -i n~
+
+#### rebase Dev ####
+git checkout Dev
+git pull <url> Dev
+git checkout myBranch
+git rebase Dev
+----- fix conflicts ----
+git rebase --continue

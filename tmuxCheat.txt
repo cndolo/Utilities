@@ -1,0 +1,13 @@
+1. Prefix key: C-a
+2. Command mode: <Prefix key> :
+3. New sesion: <preifx> C-c
+4. Split window vertically: <prefix> -
+5. Split pane horizontally: <prefix> _
+6. Navigate between panes: <prefix> +
+	- right l 
+	- left h
+	- down k
+	- up j
+3. Switch window next: <prefix key> C-n
+3. Switch window previous:<prefix key> C-p
+3. Load source file: <prefix> e
