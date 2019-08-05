@@ -22,8 +22,8 @@
 
 ## Fixup
 | Syntax	   | Meaning |
-|------------------|---------|---------|
-|git add |_Add files to be committed_ |
+|--------------|---------|
+|git add | _Add files to be committed_ |
 |git commit --fixup `commit` | _Amend certain commit_ |
 |git rebase -i --autosquash `commit`~ | _Rebase it_ |
 |git show `commit` | _View new commit_ |

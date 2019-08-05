@@ -1,6 +1,7 @@
 1. Prefix key: C-a
 2. Command mode: <Prefix key> :
 3. New sesion: <preifx> C-c
+New window: <prefix> a
 4. Split window vertically: <prefix> -
 5. Split pane horizontally: <prefix> _
 6. Navigate between panes: <prefix> +
