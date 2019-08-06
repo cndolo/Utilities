@@ -14,11 +14,22 @@
 | git show       |       | _Shows various types of messages_     |
 || `commit` | _Shows log message and textual diff_|
 |git diff | | _Changes in the working tree not yet staged for the next commit_ |
-| | `branch1 branch2` | _Shows differences between `branch1` and `branch2`|
+| | `branch1 branch2` | _Shows differences between `branch1` and `branch2`_|
 || HEAD | Changes in the working tree since your last commit |
 | git log        |       | _Shows the commit logs_     |
 | git reflog |       | _Shows reference logs_      |
 | git status |		 | _Display state of working tree_
+
+## Rebase from master branch to myBranch ,i.e., bring myBranch up to date with master branch
+
+| Syntax	   | Meaning |
+|--------------|---------|
+|git checkout master | _Switch to master branch_|
+|git pull url master | _Pull changed from master_ |
+|git checkout myBranch | _Switch to myBranch_|
+|git rebase master| |
+| | _fix merge conflicts, if any _|
+|git rebase --continue |
 
 ## Fixup - Making changes to certain commit
 | Syntax	   | Meaning |
