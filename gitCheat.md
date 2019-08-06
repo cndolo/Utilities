@@ -20,11 +20,18 @@
 | git reflog |       | _Shows reference logs_      |
 | git status |		 | _Display state of working tree_
 
-## Fixup
+## Fixup - Making changes to certain commit
 | Syntax	   | Meaning |
 |--------------|---------|
 |git add | _Add files to be committed_ |
 |git commit --fixup `commit` | _Amend certain commit_ |
-|git rebase -i --autosquash `commit`~ | _Rebase it_ |
+|git rebase -i --autosquash `commit~` | _Rebase it_ |
 |git show `commit` | _View new commit_ |
 
+## Alternative to fixup
+| Syntax	   | Meaning |
+|--------------|---------|
+|git add | _Add files to be committed_ |
+|git commit | _Commit files_ |
+|git rebase -i `commit^`| _Commit that should be ammended_ |
+|Pick and sqaush commits |_A list of commits starting from `commit` appears. Order matters. The oldest commit should be picked. All other commits that should be merged with `commit` should be squashed by replacing the pick with `s` for squash. All other commits that should not be changed should be left unhanged._|
