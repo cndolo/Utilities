@@ -15,7 +15,7 @@
 |`C-a`		    				| _Prefix key_ 							|
 |`Prefix`+`:`					| _Command mode_						|
 |`Prefix`+`C-c`					| _New session_							|
-|`Prefix`+ `a`					|_Open new window_ 						|
+|`Prefix`+ `c`					|_Open new window_ 						|
 |`Prefix`+ `-`  				|_Split pane horizontally_  			|
 |`Prefix`+ `_`					|_Split pane pane vertically_			|
 |`Prefix`+ `l`  or `right arrow`|_Switch to right pane_					|
@@ -25,5 +25,5 @@
 |`Prefix`+`C-n`					|_Switch to next window_		 		|
 |`Prefix`+`C-p`					|_Switch to previous window_		 	|
 |`Prefix`+`C-e`					|_Load source file_ 					|
-|`Prefix`+`b`					|_Detach session_						|
+|`Prefix`+`d`					|_Detach session_						|
 |tmux ls 						|_List running tmux sessions_ 			|

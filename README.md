@@ -11,7 +11,7 @@ In the near future, I will add docs for
 I will soon create a new branch with my configuratiion files for the different
 utilities, incase anyone is interested in getting a quick and easy start.
 
-If you have any suggestions for useful tools that please let me know by either 
-opening an issue, creating a pull request or dropping me an email. 
+If you have any suggestions for useful tools please let me know by either 
+opening an issue, creating a pull request or dropping me an [email](mailto:charmaine.ndolo@yahoo.de). 
 Suggestions for improvements are equally welcome.
 
