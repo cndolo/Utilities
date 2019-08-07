@@ -18,7 +18,7 @@
 |						 | `commit` 		 | _Shows log message and textual diff_									|
 |git diff 				 | 					 | _Changes in the working tree not yet staged for the next commit_ 	|
 | 						 | `branch1 branch2` | _Shows differences between `branch1` and `branch2`_					|
-|						 | HEAD 		 	 | Changes in the working tree since your last commit 					|
+|						 | HEAD 		 	 | _Changes in the working tree since your last commit_					|
 | git log        		 |       			 | _Shows the commit logs_     											|
 | git reflog 			 |       			 | _Shows reference logs_      											|
 | git status 			 |		 			 | _Display state of working tree_										|
@@ -31,7 +31,7 @@
 |git pull url master  	| _Pull changed from master_ |
 |git checkout myBranch  | _Switch to myBranch_|
 |git rebase master| 	|	|
-| 						| _fix merge conflicts, if any _|
+| 						| _fix merge conflicts, if any_|
 |git rebase --continue  |_Continue rebase_|
 
 ## Fixup - Making changes to certain commit

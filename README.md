@@ -1,4 +1,4 @@
-This is a collection of useful commands of some of the tools I use on a regalar basis.
+This is a collection of useful commands of some of the tools I use on a regular basis.
 
 - [gdb](https://www.gnu.org/software/gdb/)
 - [git](https://git-scm.com/)
