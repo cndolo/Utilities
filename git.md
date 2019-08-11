@@ -49,3 +49,15 @@
 |git commit  						   | _Commit files_ 			 	  |
 |git rebase -i `commit^`			   | _Commit that should be ammended_ |
 |Pick and sqaush commits |_A list of commits starting from `commit` appears. Order matters. The oldest commit should be picked. All other commits that should be merged with `commit` should be squashed by replacing the pick with `s` for squash. All other commits that should not be changed should be left unhanged._|
+
+## Merge PR from terminal
+
+| Syntax 								| Meaning 						  |
+|---------------------------------------|								  |
+|git fetch origin						|								  |
+|git checkout -b `pr_br origin/pr_br`	|								  |
+|git merge master						|								  |
+### Merge changes and update repository
+|git checkout master					|								  |
+|git merge --no-ff `pr_br`				|								  |
+|git push origin master					|								  |
