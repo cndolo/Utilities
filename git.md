@@ -53,11 +53,14 @@
 ## Merge PR from terminal
 
 | Syntax 								| Meaning 						  |
-|---------------------------------------|								  |
+|---------------------------------------|---------------------------------|
 |git fetch origin						|								  |
 |git checkout -b `pr_br origin/pr_br`	|								  |
 |git merge master						|								  |
-### Merge changes and update repository
+
+## Merge changes and update repository
+| Syntax								| Meaning						  |
+|---------------------------------------|---------------------------------|
 |git checkout master					|								  |
 |git merge --no-ff `pr_br`				|								  |
 |git push origin master					|								  |
