@@ -10,7 +10,7 @@
 | git commit     		 |     				 | _Create a new commit containing the contents of the existing index_	|
 |						 | -m "msg" 		 | _Commit your files with `msg` as a commit message_					|
 |						 | --amend  		 | _Amend the last made commit_											|
-| git remote     		 |          		 |   _Set of tracked repositories_    									|
+| git remote     		 |          		 |  _Set of tracked repositories_    									|
 |						 | -v				 |_Set of tracked repositories including URL_							|
 |git push 			     |					 |_Push local changes to default online repository_						|
 |						 |remote			 |_Push local changes to online repository called "remote"_				|
