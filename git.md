@@ -1,3 +1,11 @@
+## Setting up
+| Syntax	   	   		 		|Options 			 | 						Meaning 								|
+|-------------------------------|--------------------|--------------------------------------------------------------|
+|git config --global user.name	|					 | _Show current name used globally by git_						|
+|git config --global user.name `my name`|			 | _Set name to be used by git_									|
+|git config --global user.email |					 | _Show current email address used globally by git_			|
+|git config --global user.email `email@domain`|		 | _Set email address to be used by git_						|
+
 ## Basic git
 | Syntax	   	   		 | Options 			 | 								Meaning 								|
 |------------------------|-------------------|----------------------------------------------------------------------|
