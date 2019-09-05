@@ -26,4 +26,5 @@
 |`Prefix`+`C-p`					|_Switch to previous window_		 	|
 |`Prefix`+`C-e`					|_Load source file_ 					|
 |`Prefix`+`d`					|_Detach session_						|
+|`Prefix`+`Ctrl +o`				|_Move panes around_					|
 |tmux ls 						|_List running tmux sessions_ 			|
