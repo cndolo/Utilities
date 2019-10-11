@@ -42,6 +42,12 @@
 | 						| _fix merge conflicts, if any_|
 |git rebase --continue  |_Continue rebase_|
 
+## Rebase from master to myBranch, and have my unpushed commits on top of master's commits
+
+| Syntax	   						|	Meaning 		|
+|-----------------------------------|-------------------|
+|git pull --rebase upstream master 	| _Pull from master_|
+
 ## Fixup - Making changes to certain commit
 | Syntax	   						   | Meaning 					 |
 |--------------------------------------|-----------------------------|
