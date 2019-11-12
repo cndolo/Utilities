@@ -30,6 +30,8 @@
 | git log        		 |       			 | _Shows the commit logs_     											|
 | git reflog 			 |       			 | _Shows reference logs_      											|
 | git status 			 |		 			 | _Display state of working tree_										|
+| git branch -D name     |                   | _Delete local branch_                                                |
+| git push `remote` --delete <name>|         | _Delete a remote branch_                                             |
 
 ## Rebase from master branch to myBranch ,i.e., bring myBranch up to date with master branch
 
